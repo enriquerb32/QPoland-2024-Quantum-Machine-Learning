@@ -35,3 +35,17 @@ pip install qiskit numpy scipy matplotlib
 ```
 
 [This is the link to the folder with the video explanation](https://drive.google.com/drive/folders/1xu_UcqyqD3Ovhe9AgvSbKnlB8unU8sjI?usp=sharing)
+
+## Numerical analysis
+
+Scaling behavior with respect to 𝑛 for the Ising-inspired QLSP. Curves are shown for ϵ = 0.01 and κ = 60, 120, 200. In all cases we trained the local cost CL using four layers of the Layered Hardware-Efficient Ansatz:
+
+!["scaling graph"](images/scaling.webp)
+
+Additionally, we show the training of the cost function as a function of the number of optimization steps:
+
+!["cost function"](images/optimisation.png)
+
+The breakdown of the entire module is provided in the following analysis::
+
+!["analysis"](images/analysis.png)
