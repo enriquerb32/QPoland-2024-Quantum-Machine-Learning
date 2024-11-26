@@ -34,7 +34,6 @@ You can install them via pip:
 pip install qiskit numpy scipy matplotlib
 ```
 
-[This is the link to the folder with the video explanation](https://drive.google.com/drive/folders/1xu_UcqyqD3Ovhe9AgvSbKnlB8unU8sjI?usp=sharing)
 
 ## Numerical analysis
 
